@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-Jul-2015, 16:43:41
+    Author     : Asus
+*/
+body{background-color:lightgrey; font-family:serif;}
+.innercontainer {position:relative; background-color:silver; border:5px outset aliceblue;
+                 border-radius:10px; top:2px;width:1000px; height:710px; 
+                 margin-right:auto;margin-left:auto;
+}
+.list{position: absolute;top: 2px; font-style:italic; list-style: none inside none;
+      transition: background-color 2s ease-out,border 2s ease-out,
+          font-size 2s ease-out,border-radius 2s ease-out;
+      -webkit-transition: background-color 2s ease-out,
+          border 2s ease-out,font-size 2s ease-out,border-radius 2s ease-out;}
+.address {left: 130px;margin-right:10px;}
+.overview {left:350px;}
+.ovitem{ list-style-type: circle; padding-left:-10px; font-size:small;}
+.firstline {font-weight:bold;}
+.cvmenu{position: absolute; top:2px;left:850px; font-style:italic;
+        list-style: none inside none;}
+.cvitem {padding:2px 5px; margin:5px 2px; background-color:lightgrey;
+         border:2px inset darkgrey; box-shadow:2px 2px silver; text-align:center;}
+.cvitem:hover{cursor:pointer; color:white; margin-left:10px;
+              font-weight:bolder; box-shadow:6px 6px 6px white;}
+.item {padding-right:20px;}
+.firstline {font-weight:bold;}
+#myimg {position:absolute; top:0px; left:0px;}
+#home {-ms-transform: rotate(5deg); /* IE 9 */
+       -webkit-transform: rotate(5deg); /* Chrome, Safari, Opera */
+       transform: rotate(5deg); background-color:red; color:yellow;}
+#overview {-ms-transform: rotate(-7deg); /* IE 9 */
+           -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+           transform: rotate(-7deg); background-color:blue; color:yellow;}
+#JLR {-ms-transform: rotate(3deg); /* IE 9 */
+      -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+      transform: rotate(3deg); background-color:orange;}
+#SSP {-ms-transform: rotate(-5deg); /* IE 9 */
+      -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+      transform: rotate(-5deg); background-color:green;}
+#other {-ms-transform: rotate(-2deg); /* IE 9 */
+        -webkit-transform: rotate(-2deg); /* Chrome, Safari, Opera */
+        transform: rotate(-2deg); background-color:blueviolet; color:yellow;}
+.list:hover {
+    background-color:silver; border:4px outset darkgrey; font-size:large;
+    border-radius:10px;
+}
+.mainsection{ position:absolute; top:190px; width: 1000px; height:520px;  
+              background-size: 100%; opacity:0.5; font-size:medium;
+              background-image:URL("rosebackground.jpg")}
+.col {background-color:whitesmoke; position:absolute; left:5px;top:10px;
+      border-radius:20px; border:2px solid lightgrey; padding:0px 5px;}
+#col1{visibility:hidden;}
+#col2{left:340px;visibility:hidden;}
+#col3 {width:500px;visibility:hidden;}
+#col4{left:515px;width:470px;visibility:hidden;}
+#col5{width:490px;visibility:hidden;}
+#col6{width:475px;left:510px;visibility:hidden;}
+th{text-align: left;font-weight:bold;}
+table,th,td,tr {padding:2px 2px; border-collapse: collapse;
+                margin:2px 2px;padding:2px 2px;}
+h3 {margin:0px 5px 0px 5px;}
+h2 {margin-top:2px;}
+ul,li {margin-top:2px;}
+p {margin-top:0px; margin-bottom:0px;}
